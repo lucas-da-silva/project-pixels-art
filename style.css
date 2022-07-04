@@ -1,0 +1,56 @@
+body {
+    background-color:rgb(220, 240, 240);
+}
+
+.color {
+    border: black solid 1px;
+    display: inline-block;
+}
+
+#black {
+    background-color: black;
+    height: 30px;
+    width: 50px;
+}
+
+#color2 {
+    height: 30px;
+    width: 50px;
+}
+
+#color3 {
+    height: 30px;
+    width: 50px;
+}
+
+#color4 {
+    height: 30px;
+    width: 50px;
+}
+
+.pixel {
+    background-color: white;
+    border: black solid 1px;
+    display: inline-block; 
+    height: 40px;
+    width: 40px;
+    margin-bottom: -4px;
+}
+
+#clear-board {
+    margin-top: 13px;
+    display: block;
+}
+
+p {
+    display: inline-block;
+}
+
+#board-size {
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    display: inline-block;
+}

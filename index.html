@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Arte com Pixels</title>
+</head>
+<body>
+    <h1 id="title">Paleta de Cores</h1>
+    
+    <div id="color-palette">
+        <button class="color selected" id="black"></button>
+        <button class="color" id="color2"></button>
+        <button class="color" id="color3"></button>
+        <button class="color" id="color4"></button>
+    </div>
+    
+    <button id="clear-board">Limpar</button>
+    <p>Tamanho do quadro de pixels:</p>
+    <input id="board-size" type="number" min="1" max="50">
+    <button id="generate-board">VQV</button>
+
+    <div id="pixel-board"></div>
+    <img src="https://images4.alphacoders.com/581/thumb-1920-58134.jpg" width="300px" alt="Um coração formado por peças do tetris">
+    <br>
+    <p>Caso queira <strong>trocar as cores</strong>, basta <strong>recarregar</strong> a página. </p>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
