@@ -1,5 +1,23 @@
-# Requisitos Obrigatórios
-:warning: **Leia todos os requisitos atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_  e _classes_ que alguns elementos de seu projeto devem possuir**. Não troque `ids` por `classes` ou vice-versa** :warning:
+# Bem vindo ao projeto Pixels Art
+
+## Comentários
+O projeto mais difícil até o momento!! Me dediquei bastante, pesquisei muito e pedi ajuda para conseguir fazer esse projeto. Sinto agora, depois de concluir, que realmente é incrível JavaScript.
+
+---
+
+## Instalação do projeto localmente:
+
+1. No terminal, em um diretório de sua escolha, clonar o repositório:
+
+```
+git clone git@github.com:lucas-da-silva/trybe-pixels-art.git
+```
+
+2. Dentro do reposítorio, basta abrir o arquivo index.html para visualizar o projeto no navegador. :rocket:
+
+--- 
+
+## Requisitos
 
 ## 1 - Adicione à página o título "Paleta de Cores".
 
@@ -9,12 +27,6 @@
 - O título deverá ficar dentro de uma tag `h1` com o `id` denominado `title`;
 
 - O texto do título deve ser **exatamente** "Paleta de Cores".
-
-**O que será verificado**
-
-- Verifica se contém um elemento `h1`;
-- Verifica se está com id  `title`;
-- Verifica se existe o título `Paleta de Cores`.
 
 </details>
 
@@ -33,34 +45,12 @@
 
 - A paleta de cores não deve conter cores repetidas.
 
-**O que será verificado**
-
-- A paleta de cores deve ser um elemento com `id` denominado `color-palette`;
-
-- Cada cor individual da paleta de cores possui a `classe` chamada `color`;
-
-- A cor de fundo de cada elemento da paleta é a cor que o elemento representa :warning: **A única cor não permitida na paleta é a cor branca** :warning:;
-
-- Verifica se cada elemento da paleta de cores tem uma borda preta, sólida e com 1 pixel de largura;
-
-- A paleta lista todas as cores disponíveis para utilização, lado a lado;
-
-- A paleta de cores está posicionada abaixo do título `Paleta de Cores`;
-
-- A paleta de cores não contém cores repetidas.
-
 </details>
 
 ## 3 - Adicione a cor **preta** como a primeira cor da paleta de cores.
 
 <details>
   <summary>A primeira cor na paleta criada no requisito 2 deve ser preta </summary><br />
-
-**O que será verificado**
-
-- Verifica se a primeira cor da paleta  tem `background-color ` preto;
-
-- As demais cores podem ser escolhidas livremente.
 
 </details>
 
@@ -77,16 +67,6 @@
 
 -  O quadro de "pixels" deve aparecer abaixo da paleta de cores.
 
-**O que será verificado**
-
-- O quadro de "pixels" possui o `id` denominado `pixel-board`;
-
-- Cada pixel individual dentro do quadro possui a `classe` denominada `pixel`;
-
-- A cor inicial dos "pixels" dentro do quadro, ao abrir a página, é branca;
-
-- O quadro de "pixels" aparece abaixo da paleta de cores.
-
 </details>
 
 
@@ -94,12 +74,6 @@
 
 <details>
   <summary>Cada <code>pixel</code> do quadro deve possuir 40px de largura e 40px de altura e uma borda preta solida de 1px de espessura</summary><br />
-
-**O que será verificado**
-
-- O quadro de "pixels" tem altura e comprimento de 5 elementos;
-
-- Verifica se 40 pixels de altura e 40 pixels de largura é o tamanho total do elemento, incluindo seu conteúdo e excluindo a borda preta, que deve ser criada à parte.
 
 </details>
 
@@ -111,12 +85,6 @@
 - O elemento da cor preta deve possuir inicialmente a classe `selected`;
 
 - O elemento que deverá receber a classe `selected` deve ser um dos elementos que possuem a classe `color`, como especificado no **requisito 2**.
-
-**O que será verificado**
-
-- O elemento da cor preta possui, inicialmente, a classe `selected`;
-
-- Nenhuma outra cor da paleta tem a classe `selected` ao carregar a página.
 
 </details>
 
@@ -131,26 +99,12 @@
 
 - Os elementos que deverão receber a `classe` `selected` devem ser os mesmos elementos que possuem a classe `color`, como especificado no **requisito 2**.
 
-**O que será verificado**
-
-- Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez;
-
-- Verifica se os pixels dentro do quadro não têm a classe `selected` quando são clicados.
-
 </details>
 
 ## 8 - Preencha um pixel do quadro com a cor selecionada na paleta de cores.
 
 <details>
   <summary>Ao clicar em algum <code>pixel</code>  do quadro a sua cor deve ser alterada para a cor selecionada na paleta de cores</summary><br />
-
-**O que será verificado**
-
-- Ao carregar a página deve ser possível pintar os pixels do quadro de preto;
-
-- Após selecionar outra cor na paleta de cores, é possível pintar os pixels do quadro com essa cor;
-
-- Somente o pixel que foi clicado foi preenchido com a cor selecionada, sem influenciar na cor dos demais pixels.
 
 </details>
 
@@ -159,19 +113,9 @@
 <details>
   <summary>Sua página deve ter um botão que, ao ser clicado, deixe todos os <code>pixels</code> do quadro com a cor branca</summary><br />
 
-**O que será verificado**
-
-- O botão tem o `id` denominado `clear-board`;
-
-- O botão está posicionado entre a paleta de cores e o quadro de pixels;
-
-- O texto do botão é `Limpar`;
-
-- Ao clicar no botão, o quadro de pixels é totalmente preenchido de branco.
-
 </details>
 
-# Requisitos Bônus
+## Requisitos Bônus
 
 ## 10 - Faça o quadro de pixels ter seu tamanho definido pela pessoa usuária.
 
@@ -195,26 +139,6 @@
 
 - O novo quadro deve ter todos os pixels preenchidos com a cor branca.
 
-**O que será verificado**
-
-- Existe um input com o id `board-size`;
-
-- Existe um botão com o id `generate-board`;
-
-- O input só aceita número maiores que zero. Essa restrição deve ser feita usando os atributos do elemento `input`;
-
-- O botão contém o texto `VQV`;
-
-- O input está posicionado entre a paleta de cores e o quadro de pixels;
-
-- O botão está posicionado ao lado direito do input;
-
-- Caso nenhum valor for colocado no input ao clicar no botão, um `alert` é exibido com o texto: `Board inválido!`;
-
-- Ao clicar no botão com um valor preenchido, o tamanho do board muda;
-
-- O novo quadro tem todos os pixels preenchidos com a cor branca.
-
 </details>
 
 ## 11 - Limite o tamanho mínimo e máximo do quadro de pixels.
@@ -228,25 +152,11 @@
 
 2. Se o valor de `board-size`  for maior que 50, considere 50 `pixels` como padrão.
 
-**O que será verificado**
-
-- A altura máxima do board é 50;
-
-- A altura do board é 5 pixels quando um valor menor que 5 é colocado no input;
-
-- A altura do board é 50 pixels quando um valor maior que 50 é colocado no input.
-
 </details>
 
 ## 12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.
 
 <details>
   <summary>A cor preta ainda precisa estar presente e deve ser a primeira na sua paleta de cores.</summary><br />
-
-**O que será verificado**
-
-- As cores geradas na paleta são diferentes a cada carregamento da página;
-
-- A cor preta ainda está presente e é a primeira na sua paleta de cores.
 
 </details>
