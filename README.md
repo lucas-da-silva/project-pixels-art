@@ -10,7 +10,7 @@ O projeto mais difícil até o momento!! Me dediquei bastante, pesquisei muito e
 1. No terminal, em um diretório de sua escolha, clonar o repositório:
 
 ```
-git clone git@github.com:lucas-da-silva/trybe-pixels-art.git
+git clone git@github.com:lucas-da-silva/pixels-art.git
 ```
 
 2. Dentro do reposítorio, basta abrir o arquivo index.html para visualizar o projeto no navegador. :rocket:
