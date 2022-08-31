@@ -1,4 +1,4 @@
-# Bem vindo ao projeto Pixels Art
+# Bem vindo ao repositório do projeto Pixels Art
 
 ## Comentários
 O projeto mais difícil até o momento!! Me dediquei bastante, pesquisei muito e pedi ajuda para conseguir fazer esse projeto. Sinto agora, depois de concluir, que realmente é incrível JavaScript.
